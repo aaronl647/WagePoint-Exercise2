@@ -1,0 +1,10 @@
+.form-container {
+  padding: 40px;
+  overflow: hidden;
+  display: grid;
+  border: 1px solid #000;
+  text-align: left;
+  grid-template-columns: 200px;
+  grid-gap: 12px;
+  justify-content: center;
+}

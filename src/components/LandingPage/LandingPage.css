@@ -1,7 +1,12 @@
 .textBox-container {
+  margin-left: 100px;
   padding: 35px;
-  display: block;
+  display: flex;
   background-color: #fff;
   max-width: 426px;
   text-align: center;
+  z-index: 999;
+}
+.title-container {
+  color: #5c63b2;
 }
