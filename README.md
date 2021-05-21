@@ -61,7 +61,7 @@
   - Because React serves webpages through the client-side. This would lead to poor SEO which could be an issue.
   - Because webapges are rendering on the client-side, this could cause issues for maintainability. (Routing logic, form validation, etc.)
 
-I built a simple mock up of the [Partners Page](https://wagepoint.com/ca/partners) in React. With the usage of components,it makes it very simple to edit the webpage by simply adding/removing the necessary components.
+I built a simple mock up of the [Partners Page](https://wagepoint.com/ca/partners) in React. With the usage of components,it makes it very simple to edit the webpage by simply adding/removing the necessary components.  The mock up can be found [here](https://aaronl647.github.io/WagePoint-Exercise2/).
 ---
 
 ## Method 3 - (Rebuilding the site in WordPress)
