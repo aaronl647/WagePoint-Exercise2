@@ -1,6 +1,7 @@
 import React from "react";
 import "./LandingPage.css";
 import { Button } from "../Button/Button";
+import PartnerBanner from "../../images/partner_banner.jpg";
 
 function LandingPage(props) {
   return (
@@ -14,13 +15,17 @@ function LandingPage(props) {
               <Button
                 className="btn"
                 buttonStyle="btn--primary"
-                buttonSize="btn--large"
+                buttonSize="btn--medium"
               >
                 Get started
               </Button>
             </div>
           </div>
         </div>
+      </div>
+      <div className="partner-text-container">
+        <h1>{props.partnerText}</h1>
+        <p>{props.partnerParagraph}</p>
       </div>
     </>
   );

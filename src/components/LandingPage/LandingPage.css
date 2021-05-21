@@ -10,3 +10,17 @@
 .title-container {
   color: #5c63b2;
 }
+
+.partner-text-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 800px;
+}
+.landingPage-container {
+  padding: 80px 40px;
+  background-image: url("../../images/partner_banner.jpg");
+  background-position: center;
+}

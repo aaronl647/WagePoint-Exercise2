@@ -21,6 +21,8 @@ function App() {
       <LandingPage
         title="Solve payroll for your small business clients."
         paragraph="Wagepoint also helps you generate consistent revenue for your accounting or bookkeeping firm with simple payroll software that's easy to use and recommend."
+        partnerText="Join the Wagepoint Partner Program."
+        partnerParagraph="Simply complete the form below to get started. Once you submit your information, you'll receive an email outlining your next steps."
       />
       <Form />
     </div>

@@ -35,7 +35,7 @@
   font-size: 20px;
 }
 
-.btn--medium:hover {
+.btn--outline:hover {
   background: rgb(226, 226, 226);
   color: #fff;
   transition: all 0.3s ease-out;

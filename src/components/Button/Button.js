@@ -13,13 +13,15 @@ export const Button = ({
   buttonStyle,
   buttonSize,
 }) => {
+  // Using a ternary operator to change the styles and sizes of the button I made.
+  // This method makes it very simple to modify the button component for quick edits if needed.
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0];
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
   return (
-    <Link to="/contacts" className="btn-mobile">
+    <Link className="btn-mobile">
       <button
         className={`btn ${checkButtonStyle} ${checkButtonSize}`}
         onClick={onClick}

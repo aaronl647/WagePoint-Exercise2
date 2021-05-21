@@ -7,4 +7,5 @@
   grid-template-columns: 200px;
   grid-gap: 12px;
   justify-content: center;
+  box-shadow: 5px 10px grey;
 }
