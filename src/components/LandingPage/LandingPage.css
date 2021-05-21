@@ -1,0 +1,7 @@
+.textBox-container {
+  padding: 35px;
+  display: block;
+  background-color: #fff;
+  max-width: 426px;
+  text-align: center;
+}
